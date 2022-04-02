@@ -4,4 +4,6 @@ FateCompass is a flexible pipeline to estimate dynamic **stochastic trajectories
 
 ![](images/fatecompass.png)
 
+### Pre-print
 
+Please check our pre-print [Jimenez et al. 2022](https://doi.org/10.1101/2022.04.01.486696) to learn more. 
