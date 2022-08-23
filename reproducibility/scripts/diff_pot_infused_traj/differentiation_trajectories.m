@@ -14,12 +14,12 @@ IGBMC | Strasbourg University
 clc; clear; close all; 
 
 % CAREFUL: this must be an absolute path --> change accordingly
-fcnpath = '/Users/jimenezs/Documents/Doctorate/fatecompass/fatecompass/functions';
+fcnpath = '../../functions';
 userpath(fcnpath)
 
 %% Import pre-processed data
 
-datapath = '../../../data/human/';
+datapath = '../../data/human/';
 
 umap2  = importdata(strcat(datapath,'umap_2.txt'));
 umap10 = importdata(strcat(datapath,'umap_10.txt'));
@@ -75,7 +75,7 @@ Gnn = digraph(P);
 plot(Gnn,'XData',umap2(:,1),'YData',umap2(:,2))
 axis off
 
-filename = strcat({'../../../output/human/figures/nearest_neighbor_graph.png'});
+filename = strcat({'../../output/human/figures/nearest_neighbor_graph.png'});
 saveas(gcf, char(filename))
 
 %% Pre-defining sources and sinks 
@@ -106,7 +106,7 @@ scatter(umap2(ecSink,1),umap2(ecSink,2),10,EC_c,'filled')
 scatter(umap2(root,1),umap2(root,2),50,Prog_c,'filled')
 axis off
 
-filename = strcat({'../../../output/human/figures/sources_sinks.png'});
+filename = strcat({'../../output/human/figures/sources_sinks.png'});
 saveas(gcf, char(filename))
 
 %% Building energy landscape 
@@ -140,7 +140,7 @@ subplot(1,2,2)
 plot(log(sort(Pot)))
 title('log(Differentiation Potential)')
 
-filename = strcat({'../../../output/human/figures/log_differentiation_potential.png'});
+filename = strcat({'../../output/human/figures/log_differentiation_potential.png'});
 saveas(gcf, char(filename))
 
 %% Stochastic similations
@@ -165,7 +165,7 @@ plot(umap2(mycell,1),umap2(mycell,2),'k-');
 scatter(umap2(mycell,1),umap2(mycell,2),10,c2,'filled')
 axis off 
 
-filename = strcat({'../../../output/human/figures/simulated_cell.png'});
+filename = strcat({'../../output/human/figures/simulated_cell.png'});
 saveas(gcf, char(filename))
 
 %% Average gene expression profiles over stochastic trajectories
@@ -235,7 +235,7 @@ alpha(.6)
 set(gca,'FontSize',25)
 axis off
 
-filename = strcat({'../../../output/human/figures/alpha_probabilities.png'});
+filename = strcat({'../../output/human/figures/alpha_probabilities.png'});
 saveas(gcf, char(filename))
 
 figure()
@@ -246,7 +246,7 @@ alpha(.6)
 set(gca,'FontSize',25)
 axis off
 
-filename = strcat({'../../../output/human/figures/beta_probabilities.png'});
+filename = strcat({'../../output/human/figures/beta_probabilities.png'});
 saveas(gcf, char(filename))
 
 figure()
@@ -257,12 +257,12 @@ alpha(.4)
 set(gca,'FontSize',25)
 axis off
 
-filename = strcat({'../../../output/human/figures/ec_probabilities.png'});
+filename = strcat({'../../output/human/figures/ec_probabilities.png'});
 saveas(gcf, char(filename))
 
 %% Transcription factor activities CHECKKK!!! Read old file --> check order of TFs 
 
-Act     = importdata('../../../output/human/regularized_activities.csv'); % [factorsxcells] 
+Act     = importdata('../../output/human/regularized_activities.csv'); % [factorsxcells] 
 A       = Act.data';
 TFID    = Act.textdata(:,1);
 mapTFID = containers.Map(TFID,1:length(TFID));
@@ -336,7 +336,7 @@ meanTF(todel) = [];
 varTF(todel)  = [];
 semTF(todel)  = [];
 
-filename = '../../../output/human/dynamic_trajectories.mat';
+filename = '../../output/human/dynamic_trajectories.mat';
 save(filename,'states','meanG','varG','semG','mapgeneID',...
     'meanTF','varTF','semTF','mapTFID','TFID')
 %%

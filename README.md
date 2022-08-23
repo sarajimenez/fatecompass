@@ -25,6 +25,8 @@ Scripts to reproduce results are available in the [reproducibility](reproducibil
 
 [(Back to top)](#table-of-contents)
 
+Templates to run FateCompass with your own data will be available in the [tutorial](tutorial/) folder. Further instructions coming soon :soon:. 
+
 ## Pre-print
 
 [(Back to top)](#table-of-contents)
