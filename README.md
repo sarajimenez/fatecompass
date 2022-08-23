@@ -8,6 +8,8 @@ Scripts to reproduce results are available in the [reproducibility](reproducibil
 
 ![](images/fatecompass.png)
 
+## Table of Contents
+
 
 ## Reproducibility 
 
