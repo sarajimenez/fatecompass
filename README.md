@@ -10,6 +10,9 @@ Scripts to reproduce results are available in the [reproducibility](reproducibil
 
 ## Table of Contents
 
+- [Reproducibility](#reproducibility)
+- [Tutorial](#tutorial)
+- [Pre-print](#pre-print)
 
 ## Reproducibility 
 
