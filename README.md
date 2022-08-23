@@ -16,8 +16,14 @@ Scripts to reproduce results are available in the [reproducibility](reproducibil
 
 ## Reproducibility 
 
+[(Back to top)](#table-of-contents)
+
 ## Tutorial 
 
+[(Back to top)](#table-of-contents)
+
 ## Pre-print
+
+[(Back to top)](#table-of-contents)
 
 Please check our pre-print [Jimenez et al. 2022](https://doi.org/10.1101/2022.04.01.486696) to learn more. 
