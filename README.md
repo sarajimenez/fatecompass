@@ -2,8 +2,6 @@
 
 FateCompass is a flexible pipeline to estimate dynamic **stochastic trajectories** of gene expression and **transcription factor activities** during **cell-fate decision** using **single-cell RNA seq data**. We combined a probabilistic framework with RNA velocities ([La Manno et al. 2018](https://doi.org/10.1038/s41586-018-0414-6) and [Bergen et al. 2020](https://doi.org/10.1038/s41586-018-0414-6)) or a differentiation potential to estimate transition probabilities and perform stochastic simulations. Also, we implemented a linear model of gene regulation ([Balwierz et al.2014](http://www.genome.org/cgi/doi/10.1101/gr.169508.113)) to learn transcription factor activities. Taking into account dynamic changes and correlations, we identified lineage-specific regulators. 
 
-Scripts to reproduce results are available in the [reproducibility](reproducibility/scripts/) folder and are implemented in Matlab. 
-
 :soon: **Python version and tool implementation coming soon!**
 
 ![](images/fatecompass.png)
@@ -18,7 +16,10 @@ Scripts to reproduce results are available in the [reproducibility](reproducibil
 
 [(Back to top)](#table-of-contents)
 
-The FateCompass methodology was tested with two datasets describing a pancreatic islet cell subtype specification process, from the mouse embryo and a differentiation protocol towards &beta; -like cells
+The FateCompass methodology was tested with two datasets describing a pancreatic islet cell subtype specification process, from the [mouse embryo](https://doi.org/10.1242/dev.173849) and a [differentiation protocol](https://doi.org/10.1038/s41586-019-1168-5) towards &beta; -like cells. 
+
+Scripts to reproduce results are available in the [reproducibility](reproducibility/scripts/) folder and are implemented in Matlab. 
+
 
 ## Tutorial 
 
