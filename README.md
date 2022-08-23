@@ -25,8 +25,7 @@ In general, the scripts should be run in the following order:
 3. bootstrapping.m 
 4. differential_motif_activity_analysis.m
 
-FateCompass results for these datasets are summarized and easily visualized in the following shinny app. 
-
+FateCompass results for these datasets are summarized for easy visualization in the following [Shiny App](https://jimenezs.shinyapps.io/FateCompass_results/). 
 
 ## Tutorial 
 
