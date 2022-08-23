@@ -16,11 +16,21 @@ FateCompass is a flexible pipeline to estimate dynamic **stochastic trajectories
 
 [(Back to top)](#table-of-contents)
 
-The FateCompass methodology was tested with two datasets describing a pancreatic islet cell subtype specification process. Scripts to reproduce results are available in the [reproducibility](reproducibility/scripts/) folder and are implemented in Matlab. 
+The FateCompass methodology was tested with two datasets describing a pancreatic islet cell subtype specification process. Scripts to reproduce results are available in the [reproducibility](reproducibility/scripts/) folder and are implemented in Matlab. In general, the scripts should be run in the following order: 
 
-### RNA velocity driven trajectories: Mouse _in vivo_ [dataset](https://doi.org/10.1242/dev.173849)
+1. differentiation_trajectories.m
+2. tf_activities.m 
+3. bootstrapping.m 
+4. differential_motif_activity_analysis.m
 
-### Differentiation potential driven trajectories: Human _in vitro_ [dataset](https://doi.org/10.1038/s41586-019-1168-5) 
+### RNA velocity driven trajectories: 
+
+Mouse _in vivo_ [dataset](https://doi.org/10.1242/dev.173849). 
+
+
+### Differentiation potential driven trajectories: 
+
+Human _in vitro_ [dataset](https://doi.org/10.1038/s41586-019-1168-5) 
 
 
 ## Tutorial 
