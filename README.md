@@ -18,6 +18,8 @@ Scripts to reproduce results are available in the [reproducibility](reproducibil
 
 [(Back to top)](#table-of-contents)
 
+The FateCompass methodology was tested with two datasets describing a pancreatic islet cell subtype specification process, from the mouse embryo and a differentiation protocol towards &beta -like cells
+
 ## Tutorial 
 
 [(Back to top)](#table-of-contents)
