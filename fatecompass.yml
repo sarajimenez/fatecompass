@@ -282,5 +282,3 @@ dependencies:
     - traitlets==5.1.1
     - webencodings==0.5.1
     - xlrd==1.2.0
-prefix: /shared/space2/molina/jimenez/conda/fatecompass
-
