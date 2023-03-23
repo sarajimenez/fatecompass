@@ -13,12 +13,12 @@ IGBMC | Strasbourg University
 clc; clear; close all; 
 
 % CAREFUL: this must be an absolute path --> change accordingly
-fcnpath = '/Users/jimenezs/Documents/Doctorate/fatecompass/fatecompass/functions';
+fcnpath = '/Users/jimenezs/Sara/fatecompass/reproducibility/functions';
 userpath(fcnpath)
 
 %% Import pre-processed data
 
-datapath = '../../../data/mouse/';
+datapath = '../../data/mouse/';
 
 % Reading data
 umap2  = importdata(strcat(datapath,'umap_2.txt'));
