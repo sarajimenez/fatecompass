@@ -30,6 +30,12 @@ To be able to run FateCompass, we suggest to create a conda environment with all
 conda env create -f fatecompass.yml
 ```
 
+To run jupyter notebooks please install jupyter in the environment 
+
+```
+conda install notebook
+```
+
 The FateCompass module is provided in the fatecompass.py file.
 
 We provide three main [tutorials](tutorials/) as documented jupyter notebooks:
